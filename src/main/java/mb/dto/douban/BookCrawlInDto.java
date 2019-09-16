@@ -4,12 +4,17 @@ package mb.dto.douban;
  * @author: wz1016_vip@163.com @Date: 2019/9/10
  */
 public class BookCrawlInDto {
-    /**
-     * 书名
-     */
+	//书名
     private String name;
+    
+    //作者
     private String author;
+    
+    //isbn编号
     private String isbn;
+    
+    //杜威分类
+    private String deweyClass;
     
     
 	public String getName() {
@@ -30,7 +35,12 @@ public class BookCrawlInDto {
 	public void setIsbn(String isbn) {
 		this.isbn = isbn;
 	}
-    
+	public String getDeweyClass() {
+		return deweyClass;
+	}
+	public void setDeweyClass(String deweyClass) {
+		this.deweyClass = deweyClass;
+	}
     
     
 }

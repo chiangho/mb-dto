@@ -14,6 +14,9 @@ public class BookCrawlInDto {
     //isbn编号
     private String isbn;
     
+    //杜威分类
+    private String deweyClass;
+    
     
 	public String getName() {
 		return name;
@@ -33,7 +36,11 @@ public class BookCrawlInDto {
 	public void setIsbn(String isbn) {
 		this.isbn = isbn;
 	}
-    
-    
+	public String getDeweyClass() {
+		return deweyClass;
+	}
+	public void setDeweyClass(String deweyClass) {
+		this.deweyClass = deweyClass;
+	}
     
 }

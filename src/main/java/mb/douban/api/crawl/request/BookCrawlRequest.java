@@ -8,7 +8,10 @@ import lombok.Setter;
  */
 @Getter
 @Setter
-public class BookSearchRequest {
+public class BookCrawlRequest {
+    /**
+     * 书名
+     */
     private String name;
     private String author;
     private String isbn;

@@ -67,7 +67,7 @@ public class BookDto implements Serializable{
 
 	private String price;
 
-	private Object image;
+	private String image;
 	
 	
 	public Long getCode() {
@@ -286,14 +286,13 @@ public class BookDto implements Serializable{
 		this.price = price;
 	}
 
-	public Object getImage() {
+	public String getImage() {
 		return image;
 	}
 
-	public void setImage(Object image) {
+	public void setImage(String image) {
 		this.image = image;
 	}
-	
-	
+
 	
 }
